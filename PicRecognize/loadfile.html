@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<script src="js/main.js"></script>
+<script src="js/json2.js"></script>
+<script src="js/jquery-1.4.3.js"></script>
+<script src="js/mainSetting.js"></script>
+<script src="js/saveSelectPic.js"></script>
+<script src="ocrad.js-master/ocrad.js"></script>
+</head>
+<body>
+            <div style="display: none">
+                 <input id="imageSelect" type="file" accept="images/*" onchange="onImageChanged(this);" />
+            </div>
+   <p>click to select the picture</p>
+   <img  class="localImgSelect" onclick="onBtnClick(this);" id="setTop" src="images/pic3.png" style="width: 340px;height: 480px"/>
+   <br><br>
+   <button onclick="recognize_image();"><img src="images/recog1.png"  width="32"/>recognize</button>
+   <span style="width:50px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+   <button onclick="trans();"><img src="images/trans4.png" width="32" height="32"/>translate</button>
+   <span style="width:50px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+   <button onclick="page_back();"><img src="images/pic2.png" width="32" />back</button>
+   <img id="gif" style="display:none"  width="18" height="18" src="images/wait.gif" >
+   <div id="in"></div>
+   <p id="out"></p>
+</body>
+<script type="text/javascript">
+function recognize_image() { 
+	var start = new Date().getTime();//起始时间
+    var string_1 = OCRAD(document.getElementById("setTop"));
+    document.getElementById('in').innerText = string_1;
+	var end = new Date().getTime();//接受时间
+	var time1=(end - start)/1000;//返回函数执行需要时间
+	var time2=time1+"s";
+    if(string_1) {
+		alert("Recognize succeed!time:"+time2);
+		//alert(time1);
+    }
+    else{
+		alert("Could not recognize!time:"+time2);
+    }
+}
+
+function page_back(){
+	window.open("index.html");
+}
+function trans(){
+	if($("#in").html() == ""){
+		return;
+	}
+	var input = $("#in").html();
+	$("#out").html("");
+	//$("#img").attr("style","display:");
+	$("body").attr("style","color:#aabbcc");
+	$.ajax({
+		url : "http://openapi.baidu.com/public/2.0/bmt/translate?client_id=sfb2MRAn9YYZ2UU4CL4kIqp8&q="+ input +"&from=auto&to=auto",
+		async : false,
+		type : "get",
+		dataType : "jsonp",
+		success : function(data){
+			//$("#img").attr("style","display:none");
+			if(data.trans_result != undefined){
+				//$("#msg").html("<b>返回的JSON字符串 =</b> "+JSON.stringify(data));
+				$("#out").html(data.trans_result[0].dst);
+				$("body").attr("style","color:");
+				consol.log("111");
+			}else{
+				//$("#msg").html("<b>返回的JSON字符串 =</b> "+JSON.stringify(data));
+				$("#out").html("");
+				$("body").attr("style","color:");
+			}
+		}
+	});
+	consol.log("222");
+}
+</script>
+</html>

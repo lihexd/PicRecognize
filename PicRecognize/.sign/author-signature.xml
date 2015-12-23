@@ -1,0 +1,451 @@
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="AuthorSignature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="camera.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Ylae4awHNcJpqckB2pZ/mWlMevxOtLnnl1tHH9LqX/8=</DigestValue>
+</Reference>
+<Reference URI="config.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gQj9epR/0G0Ypbqwns6uLVd0W9rjscs1xkqkgruwAuM=</DigestValue>
+</Reference>
+<Reference URI="css%2Fstyle.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>RBO8YxRYqXEroc+UPEETCoGpbX2AIB2uNnr65P0kTkU=</DigestValue>
+</Reference>
+<Reference URI="css%2Ftau.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5LNcHewkHAFouPlEStHW9CQ+rM6NDfTFLI14L8r/bq8=</DigestValue>
+</Reference>
+<Reference URI="file1.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rGsmCArcCC4zi37OFNZazjemc2n11q4hx8SdcNdVF5E=</DigestValue>
+</Reference>
+<Reference URI="icon.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QUiqkkLDGswUfH0qm6p2cTImRzRZnuJMyv5y4vGLcE4=</DigestValue>
+</Reference>
+<Reference URI="icon1.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>N95bU2cvyTC6hKohnQMgNeKqBhYLYDlQwcGvGDyI1uA=</DigestValue>
+</Reference>
+<Reference URI="images%2Fbg3.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>J2cxTQnEXaQzzhMXHWqsuHlOKd1DShLTmoKxOKivvHo=</DigestValue>
+</Reference>
+<Reference URI="images%2Fcamera12.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qRp6jiTC9YrZheZb97xyfJxB7GHUPsxysgrpFR7DG8k=</DigestValue>
+</Reference>
+<Reference URI="images%2Fcamera4.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nFbs3f4jVA0r61jKLCApC/BgL8+gFgcxPthWUgI5tLo=</DigestValue>
+</Reference>
+<Reference URI="images%2Ffile1.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6P0H78zBxSgq9UATGl7qLH0qpymVjmEGmC9d1ywuL6k=</DigestValue>
+</Reference>
+<Reference URI="images%2Floading.gif">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nLEhwQGed5bQAJSh94TvKq7LVa9giLbbo2tk9DyBNYg=</DigestValue>
+</Reference>
+<Reference URI="images%2Fpic1.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>N95bU2cvyTC6hKohnQMgNeKqBhYLYDlQwcGvGDyI1uA=</DigestValue>
+</Reference>
+<Reference URI="images%2Fpic2.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+y22lvd1nva9M6El9sjo8ehUfyPuapkCkjjYu6ZgsRo=</DigestValue>
+</Reference>
+<Reference URI="images%2Fpic3.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4gAM4N+8k4XEeBhvnSra17rMFGzNSvgFVEpqekqTfFw=</DigestValue>
+</Reference>
+<Reference URI="images%2Frecog1.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Zg8tEmI6VAnyqw90YuucBuvtm+OALLx3zLqjH0GviMQ=</DigestValue>
+</Reference>
+<Reference URI="images%2Ftizen_32.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>eDr9ZPFlGlapLDnI1BiALwqovNdBvx3Aspc/lWOH3WI=</DigestValue>
+</Reference>
+<Reference URI="images%2Ftrans4.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>x7WXb/Uz1JheGURBbtjViEHhBMuNkQBnfpmiE4Iyfuw=</DigestValue>
+</Reference>
+<Reference URI="index.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>YmQtRA9QXALDrF3oPq0HlZVPmcuocYYgv4nRnFnxvV0=</DigestValue>
+</Reference>
+<Reference URI="js%2Fjquery-1.4.3.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DjMDo6DOyV68jDzD4Z/HHJlIf6ooawXQGj64zKTZC8c=</DigestValue>
+</Reference>
+<Reference URI="js%2Fjson2.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SwX9MAsCOZhkFxTLU0x8DWuRvU+3zkYZWawo+dsOwyg=</DigestValue>
+</Reference>
+<Reference URI="js%2Fmain.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Ji6A+E1j82Ef+UdHy3kho3aWaGpPGnBeMhn+H8pHKWc=</DigestValue>
+</Reference>
+<Reference URI="js%2FmainSetting.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>N+oHekUeVTvrW2VlAH6L/zwUEZpN6UPQO8aXggTbtgM=</DigestValue>
+</Reference>
+<Reference URI="js%2FsaveSelectPic.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>eAO69agq2iaeKMowveH7zasZv1CqsPU5+eX5qZ4w0Mg=</DigestValue>
+</Reference>
+<Reference URI="js%2Ftau.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BPGdriZfmOtmf2v+ImVLjwsD1vTNsZM36pfZp2YgCUE=</DigestValue>
+</Reference>
+<Reference URI="loadfile.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>eorD38rZXYu4XuQF6KOV8tkJzk+ENWtlf+2Fb9DObNM=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2FCHANGELOG.md">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Cd8gcbLly47XL42K9trKGEavY1uqkjVU0OJ3SOYxGtU=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2FLICENSE">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+73V7EiasHJlvNfqkHL/Ck+cU5KUVn7TRv48vGEqGq8=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Fbuild.sh">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>bRt08N2neGI5n9TyXtjdDu0UiHh/DWpPbcOXLuXBAW8=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2FAUTHORS">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>tb2Z9WCvdir090IGyQqKGGTlmDNkOAXA6JVqzgl3U8k=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2FCOPYING">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PXfBpY+95d26YS0f4Jll4go4BJU+yhLowYkimLuKXu8=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2FChangeLog">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>eYgCED8OKLsjVUsR8eX1hwy8jLydjt3YvhXxwzXiMgE=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2FINSTALL">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wsKUnhEWwNpUlnqVrjipERxAas+RQhYaK7rYOeYBk/o=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2FMakefile">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zF0Z+2b//ovZ8HyTYkZXmqbPBJB3ahiAcLx/2WQNlUk=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2FMakefile.in">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XHwsp9u+U2vt8zDdW+WPcwSZuUHCA0fXlyyi3XAZ/wo=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2FNEWS">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jiWCSQpI74yxitHw4HMlVmTl6T6esCAYYBR5gDJGLxw=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2FREADME">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cbgEyoJFyZyyeBKJ/IrNVoCQ8b3kU7cn5pB7DAdGREs=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Farg_parser.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FME92fmFFtzzRh18lpWhndyWs5ARnIfliDf/cxu3e34=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Farg_parser.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Vjbp6zWa2enywgO8GrvXHgJDRm2lI+59h0j8FMFPlB0=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fbitmap.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>B0q2R2oQNlHzQhYbDnoCInUTvuEZsUQ22NxmFIp9Mr8=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fbitmap.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pkEdblYfRKOI+FohZh8gqVbRx+0dg+NjvIJrUgwDuv4=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fblob.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>i14tDFHRYLjXaiWdcj8vhjpNL0WA7VUSlpifmPrAgpM=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fblob.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cLIMKzjuOq+BbcHh8nkapkqt/2aEeGrSRuS05gC9w+E=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fcharacter.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lWTbXe5CzLw43bUriuObjeNeYAcWiB6Avwwb8D/ZQYw=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fcharacter.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>eDrDZJ71oizUwzmPoJjsisnGqdV1wi0yWcS/lyoAyiA=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fcharacter_r11.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9WP88J6YOypg6mE9aU8NaUh+rdxLlm5+S+d+08QzF7o=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fcharacter_r12.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Jhetc1YmLfCMufKc928BtH3NR+oKoNPmXeBUBaMiqp0=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fcharacter_r13.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aME9Dgh1gxPlPrcSWQOEi5AoBpS2Ee2Cj5GuE0ZwJz4=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fcommon.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gTapVQ8xgCqggbb+z+6BZjKJUZJlLvUFJXqi6k/4apc=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fcommon.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BcgCrKowiRA+1Et/Z+TIgsywxmO1ntHm4wBX7fYamHc=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fconfig.status">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wFq94UjPTLTnJThHbyys8T6WyfXlc9iOA11hwYaIg1U=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fconfigure">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rBuXn2HaOqsPsH1dp2E4llCoHrcVE0aDghlQ1lFg+/M=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fdoc%2Focrad.1">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2stPIs0gGEqFHztN7XMP2qWTeQxAlzdsqvudF1U53yc=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fdoc%2Focrad.info">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AGuKamkxbjSazxSJdA8InPKp1Bun1PqcTt1xPSgcxXo=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fdoc%2Focrad.texi">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LdF7yASn9lNHPZQNOUFPHi1m2w6MuPWAmufrtPrevf8=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ffeats.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>EYGle4FFLShbJTVrHOHRfjBFLKe6oZd8daSmO9y2woQ=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ffeats.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>EntVpyHlwMD/FkgMHwcOKudh9ZmqoXhB84kTEHdk9m8=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ffeats_test0.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uNBV9mnnzjiATi/x+xBX1zR4D82EtogixL/Oku/02qM=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ffeats_test1.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kck/T5LlBftK+KhCLs+lgDagGjMSJtRkb7HB4IbxM0E=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fhistogram.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>sj2ONSltVzlrIXc4rkBssV6iCJh61vl3WR971ipeNxs=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fmain.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>7iurNssP/67jI23jZ4vVp7tYnkxJlONwvg5noqbTCig=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fmask.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3JQ97icxJIP92mTvMRBQp4INXpiiFHWPn4JhiNQ9O/Q=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fmask.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>yVRD58LSrmYseWu0f5ifvQ52sxHRltZmjpttuokA+SU=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Focrad.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>M6JRXKboFpXlaH/m0/gzhDfO3G+jucdUhHp6sc86NGY=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Focradcheck.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>obzaU9OnJMEQT7aR3QpWsI9wVPgJsxjk3BMYokq1mxc=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Focradlib.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5IJxGY528/dbDfOEHKcHnNUZiD2rTHKFPXuSqMadCLc=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Focradlib.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AOVElsrNJaCWdjIW6C7TYusnsH5M5nmwpmgaFA4WJFU=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fpage_image.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PLDYw0VJPz2OvX7B5S8ElD5vNYfY3Duwe+wGJfLRv5o=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fpage_image.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Jb6P7t0mWtuYbjMCF+jp/fB+HZbDS8BExZfYtiyzT9A=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fpage_image_io.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pjXUOiyp1oeRL7ldjRazBjf7lGDc1ILrHc4sS82BxpY=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fprofile.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Esetaqw1keM2s19G93XlurIHuCpyYQ/Up1dy6Di645Y=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fprofile.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ZyZ0iNTC3rawqeqUQlChbw+RPIJCCqiNYhsTUzDBFzY=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Frational.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ESPu8TT9Yqh73qx8vU2eSQ0RXK6r/xkEMAxN2mgxEZY=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Frational.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BtgoyQ/WAoArwfWhdwW7F5nrbhgjEVAFaYGDtoZ0R0A=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Frectangle.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rf+wAReHVezsOkts9/6QkHp3XSm9Gp1yEVZDLmYNLoo=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Frectangle.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>J0Q/iDbcZmuyvOoc9s20PuJM5caWaEHTn1KIZmMlwaU=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fsegment.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>oWyFKAd0sfjG4SkpcHmbYrSbYWKgReAcjEjsbPu5WvM=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fsegment.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ROcaQmbK6MCTOdrYF1veogC1OCdV3Xbh8hb8wBYgI3k=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ftestsuite%2Fcheck.sh">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JZbhlHwYGJdez4N3hySCdGms2zz9QP/EmZHtYDfYJtI=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ftestsuite%2Ftest.pbm">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nEPKIAk9q5v347og9ZCwlcbPmXtqCyXrKefVsaw/sYw=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ftestsuite%2Ftest.txt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HAloqqSKYeaynaLxBZD4oYemifG4UPWaQ9BKUf+KHK4=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ftestsuite%2Ftest_utf8.txt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>29GWN3KQt2lDqHAb76M66uBhZ0jx+Ch+fXWN0Tlt0Nc=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ftextblock.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>GQJmB6PQKTB6RNyr4Z0gMty3LrkJC6WK2krJRplZyWY=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ftextblock.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+4HW5TGushFWpTatjDunLLY2eiEHTDvdzy2KyGvTVW8=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ftextline.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aU/lUBtv90RGngIBOa5CPIFJgRjEPfG14EhjtOa8C1k=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ftextline.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>oadv+U4nIm8w3Th/btL7KuO8AkV42JIufJpVL97CRlE=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ftextline_r2.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cK7qWnmGsnM2MufhavVRUjLi1WK4qx0KoemhbWXwO3k=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ftextpage.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FlLw9CzKLaKr7IuNttwf79jlfqJj2/YGFB5M2Lt0U0o=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ftextpage.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>S3IyiaAJKJtPBf0A7WUdSxyaocXMEllM1CmW/gQ0aZs=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ftrack.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IeLF64jsQzfLnIspsr3E2zDNiJh0TDTcQClw+7elgSA=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Ftrack.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vZ4XxUp+B5xyWsuzMS0Qw2pIl07zuCxQUvnBJBjHIrg=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fucs.cc">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>notr8K/o9vbyK8rUHOkAuFgb7MvRnpbWiTaG63ORftI=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad-0.24%2Fucs.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SNCMImfC7HkQrD4ut/46qwwKFk5JRBuq8l0Hc8nvXjA=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Focrad.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>TPZwdSDtjaQkbdmsG5g68RL/x8UQxkJS/wUV/OfQoY4=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Fpackage.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AYcJZkQtRSwaMRqbOiiK9p6bEnQR1aC7pHsir9VkQU4=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Fsrc%2Fdiff.patch">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SI7Kn/3rBLjtVptsyVVJxhAQB0La3JCseIYegv4HJB4=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Fsrc%2Fgenerate.py">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Vzu51PXDPFvaLAJB71mw96WDlxBQCMw+t2Mqmc5aFdQ=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Fsrc%2Fpost.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>34fhZ7Q/r9kEukZQPA0jH4ojMqXryN7LfvIxLlFHDSQ=</DigestValue>
+</Reference>
+<Reference URI="ocrad.js-master%2Fsrc%2Fpre.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nHuy8msu0xATlyZQiWos68wQnZx2A9um54VK5frQ+7k=</DigestValue>
+</Reference>
+<Reference URI="#prop">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lpo8tUDs054eLlBQXiDPVDVKfw30ZZdtkRs1jd7H5K8=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+edqoi1AEiBzME9FhpDAB7qA0RPfcbgijx0lcz/Nw0foYV6ZbHNUor4hN6B31G7Qm5R5LcVQzqefT
+BVz+cN25upr9sO5ZvVw6/MrzpPlGIEhl6qnwAQI8KxGFbwCW9btMeFq3+OVN2U75T71Lo2QnFDaa
+0NGRzlHlQYIESrEmlRs=
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIC1jCCAb6gAwIBAgIGAVFwvEvLMA0GCSqGSIb3DQEBBQUAMFYxGjAYBgNVBAoMEVRpemVuIEFz
+c29jaWF0aW9uMRowGAYDVQQLDBFUaXplbiBBc3NvY2lhdGlvbjEcMBoGA1UEAwwTVGl6ZW4gRGV2
+ZWxvcGVycyBDQTAeFw0xMjExMDEwMDAwMDBaFw0xOTAxMDEwMDAwMDBaMFIxCzAJBgNVBAYTAmNo
+MQ0wCwYDVQQHDAR4aWFuMR8wHQYJKoZIhvcNAQkBFhA3MjcwMzkzOTBAcXEuY29tMRMwEQYDVQQD
+DAptYW5pbmduaW5nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpEegq7kdLITxM+093LMdR
+lw4cHxqPGNJYvWkZ1QCzwtFO0t4VcF4rcDrydiLgPeXpgYDynEhgJz9CbZuwfAJn4Yp2dCx3+3C+
+0Q7JkJDRqE7ta+bSlZbvf/956tAzwqS5kyIYATnvhE1OTGZZdhbtekCiYXWFLTCwM/4Rx5E4DwID
+AQABozIwMDAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAN
+BgkqhkiG9w0BAQUFAAOCAQEAfQc0XCijWDFdGPbHzaB9zGOklZecvyvfdTkP8PZdkwIVjZ1KLPyH
+qJjXczeLJdHo4ouyOuvfnokjgz2up5XwWgHmquzXz8SUaUlvS6fJlPbG7nSKQo2E41xqMJi54Vjb
+A9JZ98FlSU3EoiEmyTZmR9IQ/oRWUbelXYzVT4OJeh1rXlmLwDXiuoEdge89f4fb8ypIRzLqAwKT
++021tpwf9xrPhcpA5zaUfMyNm7Txt2pNpltrSIsvry4khtVHW9auOtrkTCxX5yTSZr7sHU1LbHmi
+8USjDswww90d8sbQQ/TP8Dtv/TEEylnVoy9gRazwayVNet3UKmZA21jMzSD8Hg==
+</X509Certificate>
+<X509Certificate>
+MIIDOTCCAiGgAwIBAgIBATANBgkqhkiG9w0BAQUFADBYMRowGAYDVQQKDBFUaXplbiBBc3NvY2lh
+dGlvbjEaMBgGA1UECwwRVGl6ZW4gQXNzb2NpYXRpb24xHjAcBgNVBAMMFVRpemVuIERldmVsb3Bl
+cnMgUm9vdDAeFw0xMjAxMDEwMDAwMDBaFw0yNzAxMDEwMDAwMDBaMFYxGjAYBgNVBAoMEVRpemVu
+IEFzc29jaWF0aW9uMRowGAYDVQQLDBFUaXplbiBBc3NvY2lhdGlvbjEcMBoGA1UEAwwTVGl6ZW4g
+RGV2ZWxvcGVycyBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANVGhRGmMIUyBA7o
+PCz8Sxut6z6HNkF4oDIuzuKaMzRYPeWodwe9O0gmqAkToQHfwg2giRhE5GoPld0fq+OYMMwSasCu
+g8dwODx1eDeSYVuOLWRxpAmbTXOsSFi6VoWeyaPEm18JBHvZBsU5YQtgZ6Kp7MqzvQg3pXOxtajj
+vyHxiatJl+xXrHgcXC1wgyG3buty7u/Fi2mvKXJ0PRJcCjjK81dqe/Vr20sRUCrbk02zbm5ggFt/
+jIEhV8wbFRQpliobc7J4dSTKhFfrqGM8rdd54LYhD7gSI1CFSe16pUXfcVR7FhJztRaiGLnCrwBE
+dyTZ248+D4L/qR/D0axb3jcCAwEAAaMQMA4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOC
+AQEAnOXXQ/1O/QTDHyrmQDtFziqPY3xWlJBqJtEqXiT7Y+Ljpe66e+Ee/OjQMlZe8gu21/8cKklH
+95RxjopMWCVedXDUbWdvS2+CdyvVW/quT2E0tjqIzXDekUTYwwhlPWlGxvfj3VsxqSFq3p8Brl04
+1Gx5RKAGyKVsMfTLhbbwSWwApuBUxYfcNpKwLWGPXkysu+HctY03OKv4/xKBnVWiN8ex/Sgesi0M
++OBAOMdZMPK32uJBTeKFx1xZgTLIhk45V0hPOomPjZloiv0LSS11eyd451ufjW0iHRE7WlpR6EvI
+W6TFyZgMpQq+kg4hWl2SBTf3s2VI8Ygz7gj8TMlClg==
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+<Object Id="prop"><SignatureProperties xmlns:dsp="http://www.w3.org/2009/xmldsig-properties"><SignatureProperty Id="profile" Target="#AuthorSignature"><dsp:Profile URI="http://www.w3.org/ns/widgets-digsig#profile"></dsp:Profile></SignatureProperty><SignatureProperty Id="role" Target="#AuthorSignature"><dsp:Role URI="http://www.w3.org/ns/widgets-digsig#role-author"></dsp:Role></SignatureProperty><SignatureProperty Id="identifier" Target="#AuthorSignature"><dsp:Identifier></dsp:Identifier></SignatureProperty></SignatureProperties></Object>
+</Signature>
